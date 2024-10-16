@@ -59,5 +59,12 @@ group :development do
   gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
 end
 
-gem 'rspec-rails', group: [ :test ]
-gem 'rails-controller-testing', group: [ :test ]
+gem "rspec-rails", group: [:test]
+gem "rails-controller-testing", group: [:test]
+
+# Simple Form gem
+gem "simple_form"
+
+group :development, :test do
+  gem 'faker'
+end
