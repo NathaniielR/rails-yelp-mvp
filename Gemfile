@@ -68,3 +68,5 @@ gem "simple_form"
 group :development, :test do
   gem 'faker'
 end
+gem 'rspec-rails', group: [ :test ]
+gem 'rails-controller-testing', group: [ :test ]
